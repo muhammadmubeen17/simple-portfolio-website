@@ -31,7 +31,7 @@ This project was built using the following technologies.
 
 ## **Getting Started**
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+Clone down this repository. You will need `git` installed globally on your machine.
 
 ## 🛠 Setup Instructions
 
