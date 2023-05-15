@@ -1187,3 +1187,27 @@
         font-size: 12px;
     }
 }
+
+.glow-text {
+    color: black;
+    text-shadow: 0 0 10px #ffffff;
+    animation: glow 1.5s ease-in-out infinite alternate;
+  }
+.glow-text-white {
+    color: white;
+    text-shadow: 0 0 10px #ffffff;
+    animation: glow 1.5s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #ffffff;
+    }
+    to {
+      text-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 60px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff;
+    }
+  }
+
+  #nav-ul{
+    padding: 0 20px;
+  }
