@@ -87,7 +87,22 @@
     top: 110px;
     left: 50%;
     transform: translateX(-50%);
+    box-shadow: 0 0 20px #00ffff;
+    animation: glow-image 2s ease-in-out infinite;
 }
+
+@keyframes glow-image {
+    0% {
+        box-shadow: 0 0 20px #00ffff;
+    }
+    50% {
+        box-shadow: 0 0 40px #00ffff;
+    }
+    100% {
+        box-shadow: 0 0 20px #00ffff;
+    }
+}
+
 
 @media (max-width: 768px) {
     .section-1 {
